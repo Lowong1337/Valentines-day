@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: device-width;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #272020;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+    user-select: none;
+}
+
+.a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    color: red;
+    text-shadow: 4px 4px 10px #636363;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: rgb(80, 4, 4);
+    text-shadow: 4px 4px 10px #000000;
+    width: 555px
+}
+
+.agree {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #920000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(139, 134, 134);
+    text-shadow: 4px 4px 10px #000000;
+}

@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: device-width;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+    user-select: none;
+}
+
+.gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.yes {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(220, 135, 230, 0.3);
+}
+
+.no {
+        font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(220, 135, 230, 0.3);
+}
